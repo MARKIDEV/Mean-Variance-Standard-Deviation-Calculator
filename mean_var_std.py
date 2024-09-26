@@ -1,4 +1,4 @@
-import numpy as np
+import numpy  as np
 def calculate(lst):
     if len(lst) != 9:
         raise ValueError("List must contain nine numbers.")
